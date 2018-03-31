@@ -1,0 +1,35 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+.wall {
+	width: 100%;
+	margin: 0px;
+}
+
+.about {
+	position: absolute;
+	left: 49.7%;
+	top: 22vw;
+	width: 90px;
+	height: 90px;
+	transform: translate(-50%, -50%);
+    -webkit-mask: url(image/user.svg) no-repeat center;
+    mask: url(image/user.svg) no-repeat center;
+	background: white;
+}
+
+.about:hover {
+	width: 110px;
+	height: 110px;
+	cursor: pointer;
+	filter:drop-shadow(0px 0px 10px gray) blur(0px) brightness(150%) grayscale(50%);
+	background-image: url("image/kot.jpg");
+	background-size: auto 100%;
+	background-position: center;
+-webkit-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.75));
+-moz-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.75));
+-ms-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.75));
+-o-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.75));
+}
